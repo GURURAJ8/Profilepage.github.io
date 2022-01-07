@@ -1,0 +1,37 @@
+body{
+    background:rgb(56, 55, 55);margin:0px;padding-top: 50px;padding-bottom: 50px;
+}
+section{margin:0px;background:url('free-vector.webp');padding:50px;
+height: 300px;
+}
+.profile{height: 300px;width:200px;
+    display:flex;flex-wrap:wrap;flex-direction:column;align-content: center;padding: 10px;justify-content: center;background: rgb(255, 255, 255);border-radius: 5px;
+}
+.profileinfo{margin: 0px;display:flex;justify-content: center;
+    height: 100px;width:100px;
+    flex-direction:column;padding: 30px;
+}
+.main{display: flex;justify-content: center;
+    flex-direction:column;align-items: center;
+}
+.card{flex-direction:row;
+    display:flex;justify-content: center;
+    align-items: center;height:50px;width:220px;transition:90ms
+}
+.card1{
+    height:50px;width:45px;display: flex;transition:1s;flex-direction: column;margin:15px;font-size: 10px;
+}
+img{height:100%;width: 100%;border-radius: 5px;transform: translateY(-20px);}
+p,h4{text-align: center;margin:0px;opacity:0;transition:1s;transform: translateY(-480px);}
+.card1:hover{
+    background-color: rgba(145, 255, 0, 0.644);height:65px;width: 60px;
+}
+.card1:hover> p{
+    opacity:1;transform: translateY(-30px);
+}
+.card1:hover> .cardimg{
+    transform:translateY(-20px)
+}
+.cardimg{height: 100px;width:60px;
+    transition:1s;
+}
